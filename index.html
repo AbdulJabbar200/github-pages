@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Backgrounde Remover</h1>
+        <div class="upload-area" id="upload-area">
+            <p>Drag & Drop or click to upload image</p>
+            <input type="file" id="imageInput" accept="image/*" hidden >
+        </div>
+        <div class="btns">
+            <button class="btn" id="removeBackgroundBtn" > Remove Background</button>
+            <button class="btn" id="resetBtn">Reset</button>
+        </div>
+        <div class="result" id="result">
+            <p>No image processed yet</p>
+        </div>
+    </div>    
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
